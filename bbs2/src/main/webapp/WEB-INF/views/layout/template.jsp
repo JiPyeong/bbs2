@@ -8,13 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>spring</title>
-<link rel="icon" href="data:;base64,iVBORw0KGgo=">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/style.css" type="text/css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/layout.css" type="text/css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/jquery/css/smoothness/jquery-ui.min.css" type="text/css">
-
-<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/util.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resource/jquery/js/jquery.min.js"></script>
+<jsp:include page="/WEB-INF/views/layout/staticHeader.jsp"/>
 
 </head>
 <body>
@@ -26,13 +20,13 @@
 <div class="container">
     <div class="body-container" style="width: 700px;">
         <div class="body-title">
-            <h3><span style="font-family: Webdings">2</span> 제목 </h3>
+            <h3><i class="fas fa-chalkboard"></i> 제목 </h3>
         </div>
         
         <div>
             내용
         </div>
-
+        
     </div>
 </div>
 
@@ -40,7 +34,6 @@
     <jsp:include page="/WEB-INF/views/layout/footer.jsp"></jsp:include>
 </div>
 
-<script type="text/javascript" src="${pageContext.request.contextPath}/resource/jquery/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resource/jquery/js/jquery.ui.datepicker-ko.js"></script>
+<jsp:include page="/WEB-INF/views/layout/staticFooter.jsp"/>
 </body>
 </html>

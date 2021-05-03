@@ -61,7 +61,7 @@ $(function(){
         <li>
             <a href="#">커뮤니티</a>
             <ul>
-                <li><a href="#">방명록</a></li>
+                <li><a href="${pageContext.request.contextPath}/guest/guest.do">방명록</a></li>
                 <li><a href="${pageContext.request.contextPath}/bbs/list.do">게시판</a></li>
                 <li><a href="#">자료실</a></li>
                 <li><a href="${pageContext.request.contextPath}/photo/list.do">포토갤러리</a></li>
@@ -70,14 +70,20 @@ $(function(){
 
         <li>
             <a href="#">스터디룸</a>
+            <ul>
+                <li><a href="#" style="margin-left:70px; " onmouseover="this.style.marginLeft='150px';">강좌공지</a></li>
+                <li><a href="${pageContext.request.contextPath}/sbbs/list.do">프로그래밍 강좌</a></li>
+                <li><a href="#">데이터베이스 강좌</a></li>
+                <li><a href="#">리눅스 강좌</a></li>
+            </ul>
         </li>
 
         <li>
             <a href="#">고객센터</a>
             <ul>
                 <li><a href="#" style="margin-left:150px; " onmouseover="this.style.marginLeft='150px';">자주하는질문</a></li>
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">질문과 답변</a></li>
+                <li><a href="${pageContext.request.contextPath}/notice/list.do">공지사항</a></li>
+                <li><a href="${pageContext.request.contextPath}/board/list.do">질문과 답변</a></li>
                 <li><a href="#">주요일정</a></li>
                 <li><a href="#">이벤트</a></li>
             </ul>
@@ -91,7 +97,7 @@ $(function(){
                 <li><a href="#">쪽지</a></li>
                 <li><a href="#">일정관리</a></li>
                 <li><a href="#">친구관리</a></li>
-                <li><a href="#">사진첩</a></li>
+                <li><a href="${pageContext.request.contextPath}/sphoto/list.do">사진첩</a></li>
                 <li><a href="#">채팅</a></li>
             </ul>
         </li>
