@@ -24,15 +24,18 @@
 </div>
 	
 <div class="container">
-    <div class="body-container" style="width: 700px;">
-        <div style="padding-top: 15px;">
-            메인 화면 입니다.
-            <p> 현재 접속자 수 ${currentCount}</p>
-            <p> 오늘 접속자 수 ${todayCount}</p>
-            <p> 어제 접속자 수 ${yesterdayCount}</p>
-            <p> 전체 접속자 수 ${totalCount}</p>
-        </div>
-    </div>
+<p>
+    <a href="${pageContext.request.contextPath}/bbsRay/list.do">Ray</a>
+</p>
+<p>
+    <a href="${pageContext.request.contextPath}/bbsRo/list.do">Ro</a>
+</p>
+<p>
+    <a href="${pageContext.request.contextPath}/bbsTerry/list.do">Terry</a>
+</p>
+<p>
+    <a href="${pageContext.request.contextPath}/bbsWood/list.do">Wood</a>
+</p>
 </div>
 
 <div class="footer">
