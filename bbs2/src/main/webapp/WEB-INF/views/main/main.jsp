@@ -19,18 +19,42 @@
 	
 <div class="container">
 	<div class="body-container" style="width: 700px;">
-		<p>
-		    <a href="${pageContext.request.contextPath}/bbs2Ray/list.do">Ray</a>
-		</p>
-		<p>
-		    <a href="${pageContext.request.contextPath}/bbs2Ro/list.do">Ro</a>
-		</p>
-		<p>
-		    <a href="${pageContext.request.contextPath}/bbs2Terry/list.do">Terry</a>
-		</p>
-		<p>
-		    <a href="${pageContext.request.contextPath}/bbs2Wood/list.do">Wood</a>
-		</p>
+		<table style="box-sizing:border-box; border-spacing: 0; border-collapse: collapse; border: 1px solid black;">
+			<tr height="35" style="border-bottom: 1px solid black;">
+				<td width="220">게시판(일반)
+				</td>
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbsRay/list.do">Ray</a>
+				</td>
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbsRo/list.do">Ro</a>
+				</td >
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbsTerry/list.do">Terry</a>
+				</td>
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbsWood/list.do">Wood</a>
+				</td>
+			</tr>	
+				
+			<tr height="35" style="border-bottom: 1px solid black;">
+				<td width="220">게시판(첨부파일)
+				</td>
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbs2Ray/list.do">Ray</a>
+				</td>
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbs2Ro/list.do">Ro</a>
+				</td >
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbs2Terry/list.do">Terry</a>
+				</td>
+				<td width="120">
+				    <a href="${pageContext.request.contextPath}/bbs2Wood/list.do">Wood</a>
+				</td>
+			</tr>	
+				
+		</table>
     </div>
 </div>
 
