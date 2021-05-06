@@ -127,8 +127,6 @@ function sendOk() {
 						<button type="button" class="btn" onclick="sendOk()">${mode=='update'?'수정완료':'등록하기' }</button>
 						<button type="reset" class="btn">다시입력</button>
 						<button type="button" class="btn" onclick="javascript:location.href='${pageContext.request.contextPath}/bbsRay/list.do';">${mode=='update'?'수정취소':'등록취소'}</button>
-						
-	
 					</div>
 				
 				</div>

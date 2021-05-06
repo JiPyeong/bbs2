@@ -15,6 +15,9 @@
 	--gray1 : #787878;
 	--gray2 : #cccccc;
 	--gray3 : #f8f8f8;
+	--font-size-mid: 14px;
+	--big-width: 1000px;
+	--mid-width: 700px;
 }
 * {
 	box-sizing: border-box;
@@ -259,6 +262,10 @@ $(function(){
 			    </td>
 			</tr>
             </table>
+            
+            
+            
+            
             
             <table style='width: 100%; margin: 15px auto 0; border-spacing: 0;'>
           <tr height='30'> 

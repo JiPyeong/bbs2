@@ -20,16 +20,16 @@
 <div class="container">
 	<div class="body-container" style="width: 700px;">
 		<p>
-		    <a href="${pageContext.request.contextPath}/bbsRay/list.do">Ray</a>
+		    <a href="${pageContext.request.contextPath}/bbs2Ray/list.do">Ray</a>
 		</p>
 		<p>
-		    <a href="${pageContext.request.contextPath}/bbsRo/list.do">Ro</a>
+		    <a href="${pageContext.request.contextPath}/bbs2Ro/list.do">Ro</a>
 		</p>
 		<p>
-		    <a href="${pageContext.request.contextPath}/bbsTerry/list.do">Terry</a>
+		    <a href="${pageContext.request.contextPath}/bbs2Terry/list.do">Terry</a>
 		</p>
 		<p>
-		    <a href="${pageContext.request.contextPath}/bbsWood/list.do">Wood</a>
+		    <a href="${pageContext.request.contextPath}/bbs2Wood/list.do">Wood</a>
 		</p>
     </div>
 </div>
