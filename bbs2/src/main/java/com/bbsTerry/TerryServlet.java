@@ -85,7 +85,7 @@ public class TerryServlet extends HttpServlet{
 			dataCount = dao.dataCount(condition, keyword);
 		}
 		
-		int rows = 10;
+		int rows = 1;
 		int total_page = pg.pageCount(rows, dataCount);
 		if(current_page>total_page) {
 			current_page=total_page;
@@ -121,7 +121,7 @@ public class TerryServlet extends HttpServlet{
 			listUrl += "?"+query;
 			articleUrl += "&"+query;
 		}
-		int a = 10;
+		int a = 3;
 		String paging = pg.paging(current_page, total_page, listUrl, a);
 		
 		req.setAttribute("list", list);
